@@ -52,7 +52,6 @@ public class UI implements ActionListener{
 		sendBtn.addActionListener(this);
 		panel.add(sendBtn);
 		frame.getContentPane().add(panel, BorderLayout.CENTER);
-		frame.setResizable(false);
 		frame.setVisible(true);
 		frame.setLocationRelativeTo(null); 
 	}
