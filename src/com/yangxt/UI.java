@@ -33,7 +33,7 @@ public class UI implements ActionListener{
 	
 	JButton sendBtn = new JButton("获取");
 	public void createUI(){
-		frame.setSize(250,630);
+		frame.setSize(250,680);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLayout(new BorderLayout());
 		panel.setLayout(new FlowLayout());
